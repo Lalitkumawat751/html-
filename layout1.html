@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        *{
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+        .container{
+            height:100vh;
+            background-color: black;
+        }
+
+        .header{
+            height: 10%;
+            background-color: yellow;
+        }
+        .navbar{
+            height:10%;
+            background-color:blueviolet;
+        }
+       .content{
+        height:60vh ;
+        display: flex;
+       }
+        .box1{
+            height:60vh;
+            width:50%;
+            background-color: green;
+        }
+        .box2{
+            height: 60vh;
+            width: 50%;
+            background-color: blue;
+        }
+
+        .footer{
+            height:20%;
+            background-color: magenta;
+        }
+        
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="header"></div>
+        <div class="navbar"></div>
+        <div class="content">
+            <div class="box1" id="innerbox"></div>
+            <div class="box2" id="inner box1"></div>
+        </div>
+        <div class="footer"></div>
+    </div>
+</body>
+</html>
